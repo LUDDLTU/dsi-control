@@ -1,0 +1,11 @@
+Control application for DSI lighting.
+Runs on FreeBSD with parallell port.
+DSI interface on lamps are interfaced via optocoupler.
+
+Usage:
+# cc dsi_control.c
+# ./dsi_control 0
+# ./dsi_control 128
+# ./dsi_control 255
+
+
